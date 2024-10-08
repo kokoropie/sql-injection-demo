@@ -30,7 +30,7 @@ function show_table($blend_name)
     require_once('connectdb.php');
     // vulnerability to sql injection
     $query = "SELECT * FROM coffee WHERE blend_name LIKE '%$blend_name%';";
-    ?>
+    /*?>
     <br>
     <div class="card">
       <div class="card-body">
@@ -40,7 +40,8 @@ function show_table($blend_name)
           ?>
         </code>
       </div>
-    </div>
+    </div>*/
+    ?>
     <br>
     <h3>Kaffee</h3>
     <?php
